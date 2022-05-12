@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #5e665b;
+}
+
+/*         * {
+            border: 1px solid black;
+        } */
+.yinYing {
+    box-shadow: rgb(0 0 0 /20%) 0px 2px 1px -1px,
+        rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 /12%) 0px 1px 3px 0px;
+}
+
+.flex {
+    display: flex;
+}
+
+.baiSe {
+    background-color: #5b4913;
+    /* #fffef9 */
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.mg8 {
+    margin: 8px;
+}
+
+.mgr8 {
+    margin-right: 8px;
+}
+
+.mgt8 {
+    margin-top: 8px;
+}
+
+.daoHang {
+    padding: 10px 20px;
+    border-bottom: 1px solid #5e665b;
+    font-size: 14px;
+    color: #83a78d;
+}
+
+.hjz {
+    text-align: center;
+}
+
+.zjz {
+    align-items: center;
+}
+
+.zts {
+    color: #83a78d;
+}
+
+/* 当屏幕小于600px时要改变的CSS */
+@media (max-width:600px) {
+    .ceBian {
+        display: none;
+    }
+
+    .neiRong {
+        flex-direction: column;
+    }
+
+    .shuJUQU {
+        flex-direction: column;
+    }
+
+    .youQu {
+        margin-left: 8px;
+    }
+
+    .shuju {
+        margin: 0 0 8px;
+        flex: auto;
+    }
+}
+
+.neiRong::-webkit-scrollbar {
+    display: none;
+}
