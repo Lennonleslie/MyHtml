@@ -60,6 +60,13 @@ body {
     color: #83a78d;
 }
 
+/* 当屏幕小于800px时要改变的CSS */
+@media (max-width:800px) {
+    .tbzjj {
+        letter-spacing: 15px;
+    }
+}
+
 /* 当屏幕小于600px时要改变的CSS */
 @media (max-width:600px) {
     .ceBian {
