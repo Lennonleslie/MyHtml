@@ -1,7 +1,7 @@
 body {
     margin: 0;
     height: 100vh;
-    background-color: #5e665b;
+    background-color: #35333c;
 }
 
 /*         * {
@@ -17,7 +17,8 @@ body {
 }
 
 .baiSe {
-    background-color: #5b4913;
+    background-color: #8e804b;
+    /* #5b4913 */
     /* #fffef9 */
 }
 
@@ -35,6 +36,10 @@ body {
 
 .mgr8 {
     margin-right: 8px;
+}
+
+.mgl8 {
+    margin-left: 8px;
 }
 
 .mgt8 {
@@ -57,7 +62,8 @@ body {
 }
 
 .zts {
-    color: #83a78d;
+    color: #393733;
+    /* #83a78d */
 }
 
 .tbzjj {
