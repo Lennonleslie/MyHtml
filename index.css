@@ -1,4 +1,8 @@
 /* body {} */
+a {
+    text-decoration: none;
+    background-image: url(./contactWay/img/texture.png);
+}
 
 .backImg {
     margin: 0;
