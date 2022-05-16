@@ -1,13 +1,21 @@
 /* body {} */
 a {
     text-decoration: none;
+
+}
+
+.decorate {
+    margin: 0;
+    height: 100vh;
+    background-size: cover;
     background-image: url(./contactWay/img/texture.png);
+
 }
 
 .backImg {
     margin: 0;
     height: 100vh;
-    background-size: cover
+    background-size: cover;
 }
 
 .backImg1 {

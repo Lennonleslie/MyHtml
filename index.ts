@@ -35,3 +35,14 @@ setInterval(
 
     }
     , 5000)
+
+// 音乐自动播放、音量
+// https://blog.csdn.net/a545132569/article/details/82996445
+/*  function toggleSound() {
+            var music = document.getElementById("bgmusic");//获取ID
+            if (music.paused) { //判读是否播放
+                music.paused = false;
+                music.play(); //没有就播放
+            }
+        }
+        setInterval("toggleSound()", 2000); */

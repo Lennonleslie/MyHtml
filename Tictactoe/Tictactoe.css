@@ -55,10 +55,12 @@ h1 {
   width: 471px;
   height: 471px;
 }
+
 .game-board.x .cell:not(.x):not(.o):hover::before {
   content: 'X';
   color: lightgray;
 }
+
 .game-board.o .cell:not(.x):not(.o):hover::before {
   content: 'O';
   color: lightgray;
@@ -68,6 +70,7 @@ h1 {
 .row {
   display: flex;
 }
+
 .row:last-child .cell {
   border-bottom: 0;
 }
@@ -86,6 +89,7 @@ h1 {
   font-size: 88px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
 }
+
 .cell:last-child {
   border-right: 0;
 }
@@ -95,8 +99,61 @@ h1 {
   content: 'X';
   color: #01a8c6;
 }
+
 /* o 玩家 */
 .cell.o::before {
   content: 'O';
   color: #8fbe01;
+}
+
+/* 当屏幕小于500px时要改变的CSS */
+@media (max-width:500px) {
+  .cell {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    font-size: 50px;
+  }
+
+  .game-board {
+    width: 360px;
+    height: 360px;
+  }
+
+  .container {
+    width: 360px;
+    height: 360px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #477998;
+  }
+}
+
+/* 当屏幕小于370px时要改变的CSS */
+@media (max-width:370px) {
+  .cell {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 30px;
+  }
+
+  .game-board {
+    width: 300px;
+    height: 300px;
+  }
+
+  .container {
+    width: 300px;
+    height: 300px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 25px;
+    color: #477998;
+  }
 }
