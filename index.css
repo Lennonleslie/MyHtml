@@ -150,13 +150,18 @@ a {
         margin: 0 0 8px;
         flex: auto;
     }
-}
 
-/* 当屏幕小于400px时要改变的CSS */
-@media (max-width:430px) {
     .tbzjj {
         /* letter-spacing: 5px; */
         font-size: 30px;
+    }
+}
+
+/* 当屏幕小于400px时要改变的CSS */
+@media (max-width:400px) {
+    .tbzjj {
+        /* letter-spacing: 5px; */
+        font-size: 25px;
     }
 }
 
