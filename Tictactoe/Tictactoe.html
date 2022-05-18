@@ -20,16 +20,13 @@
     <h1 style="margin: 10px;">井字棋</h1>
 
     <div style="width: auto;height:100%;" class="flex  container">
-
-
-      <div style="width: 100%;height:100%;" class="flex column ">
+      <div style="width: 100%;height:100%; justify-content:space-between;" class="flex column ">
         <!-- game-board x -->
         <!-- id=" bord" -->
         <!-- 占空 -->
-        <div class="flex1"> </div>
+        <div class="flex1"></div>
         <!-- 游戏面板（棋盘） -->
         <div id="bord" class="flex column game-board x ">
-
           <div class="flex flex1 row">
             <div class="cell flex1"></div>
             <div class="cell flex1"></div>
@@ -44,17 +41,29 @@
             <div class="cell cells3 flex1"></div>
             <div class="cell cells3 flex1"></div>
             <div class="cell cells3 flex1"></div>
-          </div>
-          <!-- 游戏获胜信息面板 -->
-          <div id="message" class="game-message">
-            <p id="winner">X 赢了！</p>
-            <button id="restart">重新开始</button>
           </div>
         </div>
         <!-- 占空 -->
         <div class="flex1"> </div>
-      </div>
 
+        <!-- 游戏获胜信息面板 -->
+        <div style="width: 100%; height:100% ;" id="message" class="flex column game-message">
+          <div class="flex1"> </div>
+          <div class="winMessage flex flex1 column">
+            <div style="text-align:center;" class="flex1">
+              <!-- text-align: center; align-items: center;  -->
+              <button style="margin: 0 auto;" id="restart">
+                <p style="text-align: center; align-items: center;" id="winner">X 赢了！</p>
+                重新开始
+              </button>
+            </div>
+            <!-- <div class="flex1">
+              <button id="restart">重新开始</button>
+            </div> -->
+          </div>
+          <div class="flex1"> </div>
+        </div>
+      </div>
 
 
     </div>

@@ -121,7 +121,7 @@ function checkWin(player: Player) {
       hasClass(cells[cellIndex2], player)) {
       // 因为赢了，所以显示出结算面板
       // 结算面板显示。
-      message.style.display = "block";
+      message.style.display = "flex";/* "block" */
       // 结算面板的角色显示异常
       // 得到结算面板的玩家获胜标签并修改
       // console.log(cureentPlayer)
@@ -130,7 +130,7 @@ function checkWin(player: Player) {
     }
 
     if (clickNum >= 8) {
-      message.style.display = "block";
+      message.style.display = "flex";/* "block" */
       winner.innerText = '平局';
     };
     // 如果棋盘不满，则继续

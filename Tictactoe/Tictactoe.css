@@ -45,33 +45,32 @@ h1 {
 .game-message {
   display: none;
   position: absolute;
-  /*   width: 100%;
-  height: 100%; */
-  margin-top: auto;
-  margin-bottom: auto;
-  top: 43%;
-  left: 20%;
-  right: 20%;
-  bottom: 43%;
   background-color: rgba(152, 192, 194, 0);
-  text-align: center;
+  /* text-align: center; */
 }
+
+
 
 /* winner 获胜者 */
 .game-message p {
   margin: auto 0 auto 0;
   color: #4d5b99;
   font-size: 50px;
+
 }
 
 /* 重新开始游戏按钮 */
 .game-message button {
-  color: #517304;
+  background-color: #beab3eaf;
+  ;
+  /* color: #517304;
   border-color: #517304;
   width: 110px;
-  height: 40px;
+  height: 40px; */
   font-size: 20px;
   cursor: pointer;
+  text-align: center;
+  align-items: center;
 }
 
 /* 游戏面板棋盘 */
@@ -117,6 +116,12 @@ h1 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
 }
 
+.winMessage {
+  width: 471px;
+  height: 471px;
+  line-height: 471px;
+}
+
 .cell:last-child {
   border-right: 0;
 }
@@ -155,17 +160,12 @@ h1 {
     line-height: 120px;
   }
 
-  /*
-  .game-board {
+  .winMessage {
     width: 360px;
     height: 360px;
+    line-height: 360px;
   }
 
-  .container {
-    width: 360px;
-    height: 360px;
-  }
- */
   h1 {
     text-align: center;
     font-size: 40px;
@@ -198,6 +198,12 @@ h1 {
   .row {
     height: 100px;
     line-height: 100px;
+  }
+
+  .winMessage {
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
   }
 
   h1 {
