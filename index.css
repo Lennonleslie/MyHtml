@@ -12,17 +12,46 @@ a {
 
 }
 
-.backImg {
+body {
     margin: 0;
     height: 100vh;
     background-size: cover;
+    background-image: url(./img/spring.jpg);
+    animation: mymove 15s infinite;
 }
 
+@keyframes mymove {
+    25% {
+        /* background-color: blue; */
+        background-image: url(./img/summer.jpg);
+    }
+
+    50% {
+        /* background-color: blue; */
+        background-image: url(./img/autumn.jpg);
+    }
+
+    75% {
+        /* background-color: blue; */
+        background-image: url(./img/winter.jpg);
+    }
+}
+
+/* .backImg {
+    margin: 0;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(./img/spring.jpg);
+} */
+
+/* 图片大小为567*945 */
+/*
 .backImg1 {
     background-size: cover;
     background-image: url(./img/spring.jpg);
-    /* 图片大小为567*945 */
+
 }
+
 
 .backImg2 {
     background-size: cover;
@@ -37,7 +66,8 @@ a {
 .backImg4 {
     background-size: cover;
     background-image: url(./img/winter.jpg);
-}
+} 
+*/
 
 /*         * {
             border: 1px solid black;
@@ -57,7 +87,7 @@ a {
 
 .diSe {
     backdrop-filter: blur(10px);
-    background-color: #f8f4ed5a;
+    background-color: #f8f4ed28;
     /* background-color: #7fbb8bbe; */
     /* #fbecde49 */
 

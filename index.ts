@@ -14,6 +14,7 @@ setInterval(function () {
 // 背景刷新计时器
 
 // 计数器I
+/*
 let i = 0;
 
 setInterval(
@@ -30,12 +31,10 @@ setInterval(
         // let body = document.querySelector('#body');
         // body.classList
         //body.forEach(function () { });
-
         backImg.classList.add(backImgs[i]);
-
     }
     , 5000)
-
+ */
 // 音乐自动播放、音量
 // https://blog.csdn.net/a545132569/article/details/82996445
 /*  function toggleSound() {
